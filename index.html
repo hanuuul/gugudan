@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>구구단 계산기</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <h2>구구단 계산기</h2>
+        <div id="reset" class="reset">reset</div>
+        <div>
+            <div class="inner">
+                <h3 class="input_title">몇 단?</h3>
+                <input type="number" id="dan" />
+                <button id='danBtn'>입력</button>
+            </div>
+            <div class="inner">
+                <h3 class="input_title">몇번째 줄까지?</h3>
+                <input type="number" id="cnt" />
+                <button id='cntBtn'>입력</button>
+            </div>
+            <div class="prev">
+                결과: <span id="danValue"></span> <span id="cntValue"></span>
+            </div>
+        </div>
+        <div id="result"></div>
+    </div>
+
+    <div class="wrap">
+        <h2>구구단 계산기 ver2</h2>
+        <div id="reset_2" class="reset">reset</div>
+        <div class="inner">
+            <div class="input_title">몇 단?</div>
+            <input type="text" id="dan_2" />
+        </div>
+        <div class="inner">
+            <div class="input_title">몇번째 줄까지?</div>
+            <input type="text" id="cnt_2" />
+        </div>
+        <div id="result_2"></div>
+    </div>
+</body>
+</html>
