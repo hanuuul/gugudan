@@ -80,10 +80,11 @@ button{
 
 .reset{
     display: inline-block;
-    width: 60px;
+    width: 58px;
     height: 24px;
     background-color: #eee;
-    border: 1px solid #bbb;
+    border-left: 1px solid #d8dee5;
+    border-bottom: 1px solid #d8dee5;
     color: #222;
     font-size: 15px;
     display: flex;
@@ -91,7 +92,7 @@ button{
     justify-content: center;
     padding-bottom: 3px;
     position: absolute;
-    right: 22px; top: 250px;
+    right: 0; top: 0;
     cursor: pointer;
 }
 
